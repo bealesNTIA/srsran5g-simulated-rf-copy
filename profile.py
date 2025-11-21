@@ -54,7 +54,7 @@ pc.defineParameter(
     name="enable_vnc",
     description="Enable browser-based VNC server.",
     typ=portal.ParameterType.BOOLEAN,
-    defaultValue=True,
+    defaultValue=False,
     advanced=False,
 )
 
